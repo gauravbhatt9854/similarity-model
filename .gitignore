@@ -1,0 +1,72 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env.*
+.venv/
+
+# -----------------------
+# Build / Dist
+# -----------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Testing / Coverage
+# -----------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------
+# Jupyter
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# FastAPI / Uvicorn
+# -----------------------
+*.db
+*.sqlite3
+
+# -----------------------
+# ML / Models / Cache
+# -----------------------
+.cache/
+models/
+*.bin
+*.pt
+*.pth
+
+# -----------------------
+# HuggingFace / Transformers
+# -----------------------
+hf_cache/
+huggingface/
